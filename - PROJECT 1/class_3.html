@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- REQUIRED META TAGS START -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLASS 3</title>
+  <!-- REQUIRED META TAGS END -->
+
+
+  <!-- BOOTSTRAP & CSS START -->
+  <link rel="stylesheet" href="../CSS/bootstrap.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/font-awesome.css">
+  <link rel="stylesheet" href="../ICONS/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../CSS/owl.carousel.css">
+  <link rel="stylesheet" href="../CSS/owl.theme.default.css">
+  <!-- BOOTSTRAP & CSS END -->
+</head>
+
+<body>
+
+  <!-- NAV BAR STAR -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-4" href="../index_2.html"><span class="text-info ">FRONT</span>END</a>
+
+      <!-- BREADCRUMB START -->
+      <div class="breadcrumbs-nav mt-1 mb-1 bg-dark text-white">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0 text-decoration-none">
+              <li class="breadcrumb-item text-info"><a href="../index_2.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="/- PROJECT 1/index_1.html">Bootstrap</a></li>
+              <li class="breadcrumb-item active text-white" aria-current="page">Class 3</li>
+              <li class="breadcrumb-item"><a href="/- PROJECT 1/class_4.html">Next</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- BREADCRUMB END -->
+    </div>
+  </nav>
+
+  <!--------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- BANNER STAR -->
+  <section id="scrollspy-banner" class="bg-secondary text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Sneak Peek <span class="text-info">CLASS 3</span> </h1>
+          <h3 class="text-dark">Break points / Container / Grid </h3>
+          <p class="lead my-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minima
+            tempora expedita? Ullam
+            sed totam voluptates ea adipisci distinctio laborum?</p>
+          <button class="btn btn-info btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#modal">Start
+            learning
+            today</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block px-4 " src="../IMG/PROJECT 1/6.svg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- BANNER END -->
+
+
+  <!-- MODAL SECTION START -->
+  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Start Learning today</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this & we will get back to you</p>
+          <!-- FORM START -->
+          <div class="form-floating mb-3">
+            <input type="name" class="form-control" id="floating-name" placeholder="full-name">
+            <label for="floating-name">Full name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floating-email" placeholder="email">
+            <label for="floating-email">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="phone-number" class="form-control" id="floating-email" placeholder="phone-number">
+            <label for="floating-phone-number">Phone number</label>
+          </div>
+          <!-- FORM END -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-info text-white">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL SECTION END -->
+
+ 
+
+
+  <!-- CLASS CONTENT START -->
+
+  <!-- BREAKOINTS -->
+  <div class="p-5 pt-0">
+    <div class="container">
+      <div class="row align-items-center justify-content-between ">
+        <div class="col-md text-center p-5 ">
+          <h2 class="text-info">BREAKPOINTS</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt ullam tempore
+            cumque, aperiam cum nostrum exercitationem quaerat enim quos voluptatem fugit eligendi
+            consectetur numquam iusto nam itaque autem adipisci! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Aut odit accusamus iste illum ea sapiente voluptate vel eos maxime nesciunt.</p>
+        </div>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Breakpoint</th>
+              <th>Class infix</th>
+              <th>Dimensions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>X-Small</td>
+              <td><em>None</em></td>
+              <td>&lt;576px</td>
+            </tr>
+            <tr>
+              <td>Small</td>
+              <td><code>sm</code></td>
+              <td>≥576px</td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td><code>md</code></td>
+              <td>≥768px</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td><code>lg</code></td>
+              <td>≥992px</td>
+            </tr>
+            <tr>
+              <td>Extra large</td>
+              <td><code>xl</code></td>
+              <td>≥1200px</td>
+            </tr>
+            <tr>
+              <td>Extra extra large</td>
+              <td><code>xxl</code></td>
+              <td>≥1400px</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <!-- CONTAINER -->
+  <div class="p-5 pt-0">
+    <div class="container">
+      <div class="row align-items-center justify-content-between ">
+        <div class="col-md text-center p-5 ">
+          <h2 class="text-info">CONTAINER</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt ullam tempore
+            cumque, aperiam cum nostrum exercitationem quaerat enim quos voluptatem fugit eligendi
+            consectetur numquam iusto nam itaque autem adipisci! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Aut odit accusamus iste illum ea sapiente voluptate vel eos maxime nesciunt.</p>
+        </div>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <td class="border-dark"></td>
+              <th scope="col">
+                Extra small<br>
+                <span class="fw-normal">&lt;576px</span>
+              </th>
+              <th scope="col">
+                Small<br>
+                <span class="fw-normal">≥576px</span>
+              </th>
+              <th scope="col">
+                Medium<br>
+                <span class="fw-normal">≥768px</span>
+              </th>
+              <th scope="col">
+                Large<br>
+                <span class="fw-normal">≥992px</span>
+              </th>
+              <th scope="col">
+                X-Large<br>
+                <span class="fw-normal">≥1200px</span>
+              </th>
+              <th scope="col">
+                XX-Large<br>
+                <span class="fw-normal">≥1400px</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container</code></th>
+              <td class="text-muted">100%</td>
+              <td>540px</td>
+              <td>720px</td>
+              <td>960px</td>
+              <td>1140px</td>
+              <td>1320px</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container-sm</code></th>
+              <td class="text-muted">100%</td>
+              <td>540px</td>
+              <td>720px</td>
+              <td>960px</td>
+              <td>1140px</td>
+              <td>1320px</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container-md</code></th>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td>720px</td>
+              <td>960px</td>
+              <td>1140px</td>
+              <td>1320px</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container-lg</code></th>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td>960px</td>
+              <td>1140px</td>
+              <td>1320px</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container-xl</code></th>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td>1140px</td>
+              <td>1320px</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container-xxl</code></th>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td>1320px</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fw-normal"><code>.container-fluid</code></th>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+              <td class="text-muted">100%</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- GRID -->
+  <div class="p-5 pt-0">
+    <div class="container">
+      <div class="row align-items-center justify-content-between ">
+        <div class="col-md text-center p-5 ">
+          <h1 class="text-info">GRID</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt ullam tempore
+            cumque, aperiam cum nostrum exercitationem quaerat enim quos voluptatem fugit eligendi
+            consectetur numquam iusto nam itaque autem adipisci! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Aut odit accusamus iste illum ea sapiente voluptate vel eos maxime nesciunt.</p>
+        </div>
+
+
+
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">Equal Widht</h4>
+
+          <div class="row text-white fs-4">
+            <div class="col bg-info text-center">
+              1 of 2
+            </div>
+            <div class="col bg-secondary text-center">
+              2 of 2
+            </div>
+          </div>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col bg-info text-center">
+              1 of 3
+            </div>
+            <div class="col bg-secondary text-center">
+              2 of 3
+            </div>
+            <div class="col bg-info text-center">
+              3 of 3
+            </div>
+          </div>
+
+        </div>
+        <!-- Setting one column width -->
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">Setting one column width</h4>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col bg-info text-center">
+              1 of 3
+            </div>
+            <div class="col-6 bg-secondary text-center">
+              2 of 3 (wider)
+            </div>
+            <div class="col bg-info text-center">
+              3 of 3
+            </div>
+          </div>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col bg-secondary text-center">
+              1 of 3
+            </div>
+            <div class="col-5 bg-info text-center">
+              2 of 3 (wider)
+            </div>
+            <div class="col bg-secondary text-center">
+              3 of 3
+            </div>
+          </div>
+
+        </div>
+        <!-- Variable width content -->
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">Variable width content</h4>
+
+          <div class="row justify-content-md-center mt-2 text-white fs-4">
+            <div class="col col-lg-2 bg-secondary text-center">
+              1 of 3
+            </div>
+            <div class="col-md-auto bg-info text-center">
+              Variable width content
+            </div>
+            <div class="col col-lg-2 bg-secondary text-center">
+              3 of 3
+            </div>
+          </div>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col bg-info text-center">
+              1 of 3
+            </div>
+            <div class="col-md-auto bg-secondary text-center">
+              Variable width content
+            </div>
+            <div class="col col-lg-2 bg-info text-center">
+              3 of 3
+            </div>
+          </div>
+
+        </div>
+        <!-- DIVISION -->
+        <h4 class="text-white bg-dark text-center m-4">RESPONSIVE CLASSES</h4>
+        <!-- All Breakpoints -->
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">All Breakpoints</h4>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col bg-info text-center">col-3</div>
+            <div class="col bg-secondary text-center">col-3</div>
+            <div class="col bg-info text-center">col-3</div>
+            <div class="col bg-secondary text-center">col-3</div>
+          </div>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col-8 bg-info text-center">col-8</div>
+            <div class="col-4 bg-secondary text-center">col-4</div>
+          </div>
+
+        </div>
+        <!-- Stacked to horizontal -->
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">Stacked to horizontal</h4>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col-sm-8 bg-secondary text-center">col-sm-8</div>
+            <div class="col-sm-4 bg-info text-center">col-sm-4</div>
+          </div>
+
+          <div class="row mt-2 text-white fs-4">
+            <div class="col-sm bg-info text-center">col-sm</div>
+            <div class="col-sm bg-secondary text-center">col-sm</div>
+            <div class="col-sm bg-info text-center">col-sm</div>
+          </div>
+        </div>
+        <!-- Mix & Match -->
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">Mix & Match</h4>
+          <div class="row mt-2 text-white fs-4">
+            <div class="col-md-8 bg-info text-center">.col-md-8</div>
+            <div class="col-6 col-md-4 bg-secondary text-center">.col-6 .col-md-4</div>
+          </div>
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+          <div class="row mt-2 text-white fs-4">
+            <div class="col-6 col-md-4 bg-info text-center">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 bg-secondary text-center">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 bg-info text-center">.col-6 .col-md-4</div>
+          </div>
+          <!-- Columns are always 50% wide, on mobile and desktop -->
+          <div class="row mt-2 text-white fs-4">
+            <div class="col-6 bg-secondary text-center">.col-6</div>
+            <div class="col-6 bg-info text-center">.col-6</div>
+          </div>
+        </div>
+        <!-- Row Columns -->
+        <div class="container m-4">
+          <h4 class="text-dark text-center mb-3">Row Columns</h4>
+          <div class="row row-cols-2 mt-2 text-white fs-4">
+            <div class="col bg-info text-center">Column</div>
+            <div class="col bg-secondary text-center">Column</div>
+            <div class="col bg-secondary text-center">Column</div>
+            <div class="col bg-info text-center">Column</div>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="p-5 pt-0">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md ">
+          <img src="../IMG/PROJECT 2/react.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md text-center p-5 ">
+          <h2>Do you want to learn more?</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt ullam tempore
+            cumque, aperiam cum nostrum exercitationem quaerat enim quos voluptatem fugit eligendi
+            consectetur numquam iusto nam itaque autem adipisci!</p>
+          <a class="btn btn-info text-light mt-3 bi bi-light bi-chevron-right" href="./class_4.html">Next Class</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CLASS CONTENT END -->
+
+  <!--------------------------------------------------------------------------------------------------------------------------->
+
+
+  <!-- FOOTER START -->
+  <footer id="scrollspy-footer" class="p-3 bg-dark text-white text-center position-relative">
+    <div class="container ">
+      <p class="lead">Bootstrap - Project 1 &copy; 2022</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-3">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+  <!--------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- BOOTSTRAP JS START -->
+  <script src="../JS/script.js"></script>
+  <script src="../JS/bootstrap.js"></script>
+  <script src="../JS/bootstrap.bundle.js"></script>
+  <script src="../JS/jquery.js"></script>
+  <script src="../JS/owl_carousel.js"></script>
+  <script src="../ICONS/node_modules/@popperjs/core/lib/popper.js"></script>
+  <!-- BOOTSTRAP JS END -->
+
+  <!-- TOAST JS START -->
+  <script>
+    window.onload = (event) => {
+      let myAlert = document.querySelector('.toast');
+      let bsAlert = new bootstrap.Toast(myAlert);
+      bsAlert.show();
+    }
+  </script>
+  <!-- TOAST JS START -->
+
+</body>
+
+</html>
